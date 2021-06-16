@@ -1,0 +1,227 @@
+{
+  "../node_modules/react-player/lazy/ReactPlayer.js -> ./Preview": {
+    "id": 7284,
+    "files": [
+      "static/chunks/reactPlayerPreview.e7fa29c3927b7a6f019c.js"
+    ]
+  },
+  "../node_modules/react-player/lazy/players/index.js -> ./DailyMotion": {
+    "id": 5134,
+    "files": [
+      "static/chunks/reactPlayerDailyMotion.22fb2a4dd99ca80d31a8.js"
+    ]
+  },
+  "../node_modules/react-player/lazy/players/index.js -> ./Facebook": {
+    "id": 6429,
+    "files": [
+      "static/chunks/reactPlayerFacebook.748595b34b3b6d69d1b3.js"
+    ]
+  },
+  "../node_modules/react-player/lazy/players/index.js -> ./FilePlayer": {
+    "id": 3364,
+    "files": [
+      "static/chunks/reactPlayerFilePlayer.a7c4078d64b1a57a173d.js"
+    ]
+  },
+  "../node_modules/react-player/lazy/players/index.js -> ./Kaltura": {
+    "id": 9289,
+    "files": [
+      "static/chunks/reactPlayerKaltura.3af350c10b3d9bdc6900.js"
+    ]
+  },
+  "../node_modules/react-player/lazy/players/index.js -> ./Mixcloud": {
+    "id": 9734,
+    "files": [
+      "static/chunks/reactPlayerMixcloud.e450bd023d3839181512.js"
+    ]
+  },
+  "../node_modules/react-player/lazy/players/index.js -> ./SoundCloud": {
+    "id": 6655,
+    "files": [
+      "static/chunks/reactPlayerSoundCloud.2d373f6bc1a60b60d8d3.js"
+    ]
+  },
+  "../node_modules/react-player/lazy/players/index.js -> ./Streamable": {
+    "id": 6479,
+    "files": [
+      "static/chunks/reactPlayerStreamable.af816285cf4f7b4ca345.js"
+    ]
+  },
+  "../node_modules/react-player/lazy/players/index.js -> ./Twitch": {
+    "id": 9743,
+    "files": [
+      "static/chunks/reactPlayerTwitch.60c483d7885b19d3d23c.js"
+    ]
+  },
+  "../node_modules/react-player/lazy/players/index.js -> ./Vidyard": {
+    "id": 7287,
+    "files": [
+      "static/chunks/reactPlayerVidyard.45d97fe7be529de3bbf8.js"
+    ]
+  },
+  "../node_modules/react-player/lazy/players/index.js -> ./Vimeo": {
+    "id": 6746,
+    "files": [
+      "static/chunks/reactPlayerVimeo.cb5744bd04d000ed439b.js"
+    ]
+  },
+  "../node_modules/react-player/lazy/players/index.js -> ./Wistia": {
+    "id": 3134,
+    "files": [
+      "static/chunks/reactPlayerWistia.17aa6e7ca11f7d8387c7.js"
+    ]
+  },
+  "../node_modules/react-player/lazy/players/index.js -> ./YouTube": {
+    "id": 5034,
+    "files": [
+      "static/chunks/reactPlayerYouTube.24d0c66b85eadc683c66.js"
+    ]
+  },
+  "autor/[name].jsx -> ../../components/PaginationAutor/PaginationAutor": {
+    "id": 8885,
+    "files": [
+      "static/chunks/framework-bdc1b4e5e48979e16d36.js",
+      "static/chunks/5723-3c9c3f8cb1fa4975285c.js",
+      "static/chunks/653-f7b46eda41ee6f0d7b54.js",
+      "static/chunks/2405-abe560831d64eb7cd582.js",
+      "static/chunks/7677.bd0384dac7f3c5ef73b3.js"
+    ]
+  },
+  "autores/[name].jsx -> ../../components/PaginationAutorOpinion/PaginationAutorOpinion": {
+    "id": 6013,
+    "files": [
+      "static/chunks/framework-bdc1b4e5e48979e16d36.js",
+      "static/chunks/5723-3c9c3f8cb1fa4975285c.js",
+      "static/chunks/653-f7b46eda41ee6f0d7b54.js",
+      "static/chunks/2405-abe560831d64eb7cd582.js",
+      "static/chunks/5788.ca1d472a17b4f360c3ae.js"
+    ]
+  },
+  "index.jsx -> ../components/AlMyMasL/AlMyMasL": {
+    "id": 1988,
+    "files": [
+      "static/chunks/9669.4fd9e164083a50557cd1.js",
+      "static/chunks/1988.f7c7d6eed231db72804a.js"
+    ]
+  },
+  "index.jsx -> ../components/Blogs/Blogs": {
+    "id": 4788,
+    "files": [
+      "static/chunks/5723-3c9c3f8cb1fa4975285c.js",
+      "static/chunks/702-1e43c0c796ef0564d0d0.js",
+      "static/chunks/4788.5694bceea3eaaf25a291.js"
+    ]
+  },
+  "index.jsx -> ../components/GaleriaPrincipal/GaleriaPrincipal": {
+    "id": 3246,
+    "files": [
+      "static/chunks/702-1e43c0c796ef0564d0d0.js",
+      "static/chunks/9669.4fd9e164083a50557cd1.js",
+      "static/chunks/7159.9e546e1762a176a82ff9.js"
+    ]
+  },
+  "index.jsx -> ../components/LaCorte/LaCorte": {
+    "id": 3970,
+    "files": [
+      "static/chunks/5723-3c9c3f8cb1fa4975285c.js",
+      "static/chunks/3970.dca6771ef6de5f36b39e.js"
+    ]
+  },
+  "index.jsx -> ../components/Multimedia/Multimedia": {
+    "id": 1048,
+    "files": [
+      "static/chunks/framework-bdc1b4e5e48979e16d36.js",
+      "static/chunks/9669.4fd9e164083a50557cd1.js",
+      "static/chunks/6157.ca31d74ac47593e9d3e5.js",
+      "static/chunks/1048.0e9b9c7797bd32982b95.js"
+    ]
+  },
+  "index.jsx -> ../components/Municipios/Municipios": {
+    "id": 2299,
+    "files": [
+      "static/chunks/5723-3c9c3f8cb1fa4975285c.js",
+      "static/chunks/702-1e43c0c796ef0564d0d0.js",
+      "static/chunks/2299.eaae1a1099fe2fedfec3.js"
+    ]
+  },
+  "index.jsx -> ../components/NotasSoft/NotasSoft": {
+    "id": 73,
+    "files": [
+      "static/chunks/702-1e43c0c796ef0564d0d0.js",
+      "static/chunks/9669.4fd9e164083a50557cd1.js",
+      "static/chunks/73.2c107d11c6fea35660e2.js"
+    ]
+  },
+  "index.jsx -> ../components/SliderOpinion/SliderOpinion": {
+    "id": 4510,
+    "files": [
+      "static/chunks/5723-3c9c3f8cb1fa4975285c.js",
+      "static/chunks/702-1e43c0c796ef0564d0d0.js",
+      "static/chunks/4510.dd7da94e0f2b571a90f4.js"
+    ]
+  },
+  "medios-externos/[fecha]/[slug].jsx -> ../../../components/Share/Share": {
+    "id": 8620,
+    "files": [
+      "static/chunks/8620.6b43ec73fd2aece999e4.js"
+    ]
+  },
+  "nota/[fecha]/[seccion]/[slug].jsx -> ../../../../components/AlMyMasL/AlMyMasL": {
+    "id": 1988,
+    "files": [
+      "static/chunks/9669.4fd9e164083a50557cd1.js",
+      "static/chunks/1988.f7c7d6eed231db72804a.js"
+    ]
+  },
+  "nota/[fecha]/[seccion]/[slug].jsx -> ../../../../components/GaleriaPrincipal/GaleriaPrincipal": {
+    "id": 3246,
+    "files": [
+      "static/chunks/9669.4fd9e164083a50557cd1.js",
+      "static/chunks/3246.c2c9a6d1198c7251572d.js"
+    ]
+  },
+  "nota/[fecha]/[seccion]/[slug].jsx -> ../../../../components/Relativas/Relativas": {
+    "id": 8374,
+    "files": [
+      "static/chunks/8374.16f3d86d8c541d5b79be.js"
+    ]
+  },
+  "nota/[fecha]/[seccion]/[slug].jsx -> ../../../../components/Share/Share": {
+    "id": 8620,
+    "files": [
+      "static/chunks/8620.6b43ec73fd2aece999e4.js"
+    ]
+  },
+  "opinion/[fecha]/[slug].jsx -> ../../../components/Share/Share": {
+    "id": 8620,
+    "files": [
+      "static/chunks/8620.6b43ec73fd2aece999e4.js"
+    ]
+  },
+  "opinion/index.jsx -> ../../components/PaginationAutorOpinion/PaginationAutorOpinion": {
+    "id": 6013,
+    "files": [
+      "static/chunks/framework-bdc1b4e5e48979e16d36.js",
+      "static/chunks/5723-3c9c3f8cb1fa4975285c.js",
+      "static/chunks/653-f7b46eda41ee6f0d7b54.js",
+      "static/chunks/2405-abe560831d64eb7cd582.js",
+      "static/chunks/5788.ca1d472a17b4f360c3ae.js"
+    ]
+  },
+  "seccion/[slug].jsx -> ../../components/PaginationSeccion/PaginationSeccion": {
+    "id": 9571,
+    "files": [
+      "static/chunks/framework-bdc1b4e5e48979e16d36.js",
+      "static/chunks/5723-3c9c3f8cb1fa4975285c.js",
+      "static/chunks/2405-abe560831d64eb7cd582.js",
+      "static/chunks/9571.4854625d257cd286dccf.js"
+    ]
+  },
+  "tags/[slug].jsx -> ../../components/PaginationTags/PaginationTags": {
+    "id": 7711,
+    "files": [
+      "static/chunks/5723-3c9c3f8cb1fa4975285c.js",
+      "static/chunks/7711.c62cc6583fed90b079ae.js"
+    ]
+  }
+}

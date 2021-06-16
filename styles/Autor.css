@@ -1,0 +1,14 @@
+.card-autor{
+    width: 100% !important;
+    height: auto !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+.card-autor img {
+    height: 320px !important;
+}
+
+.block-white div div img {
+    visibility: hidden !important;
+    display: none !important;
+}

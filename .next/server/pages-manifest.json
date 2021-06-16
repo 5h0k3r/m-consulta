@@ -1,0 +1,15 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/autor/[name]": "pages/autor/[name].html",
+  "/autores/[name]": "pages/autores/[name].html",
+  "/": "pages/index.html",
+  "/medios-externos/[fecha]/[slug]": "pages/medios-externos/[fecha]/[slug].js",
+  "/nota/[fecha]/[seccion]/[slug]": "pages/nota/[fecha]/[seccion]/[slug].js",
+  "/opinion/[fecha]/[slug]": "pages/opinion/[fecha]/[slug].js",
+  "/opinion": "pages/opinion.html",
+  "/seccion/[slug]": "pages/seccion/[slug].html",
+  "/tags/[slug]": "pages/tags/[slug].html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
