@@ -6,8 +6,6 @@ import Footer from '../components/Footer/Footer'
 export default function Template({children}){
     return(
         <div className="pt-5">
-
-            
             <Head>
                 <title>m.e-consulta.com | Periódico Digital de Noticias de Puebla | México 2021</title>
                 <meta name="description" content="Periódico Digital de Noticias de Puebla" />
