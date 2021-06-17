@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic'
 import {Bling as GPT} from "react-gpt"
 import Script from 'next/script'
 
-import GaleriaPrincipal from '../../../../components/GaleriaPrincipal/GaleriaPrincipal'
+import GaleriaPrincipal from '../components/GaleriaPrincipal/GaleriaPrincipal'
 const AlMyMasL = dynamic(() => import("../components/AlMyMasL/AlMyMasL"))
 const LaCorte = dynamic(() => import("../components/LaCorte/LaCorte"))
 const Municipios = dynamic(() => import("../components/Municipios/Municipios"))
