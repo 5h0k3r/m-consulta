@@ -38,9 +38,9 @@ function Nota({data}){
                 {ReactHtmlParser(content.seo)}
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: content.nota_schema }} ></script>
             </Head>
-            <Script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" strategy="beforeInteractive" />
-            <Script defer src="https://www.instagram.com/static/bundles/es6/EmbedSDK.js/58b07fec4121.js" strategy="beforeInteractive" />
-            <Script defer src="https://platform.twitter.com/widgets.js" strategy="beforeInteractive" />
+            <Script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" strategy="beforeInteractive" />
+            <Script src="https://www.instagram.com/static/bundles/es6/EmbedSDK.js/58b07fec4121.js" strategy="beforeInteractive" />
+            <Script src="https://platform.twitter.com/widgets.js" strategy="beforeInteractive" />
 
             <div id="div-gpt-ad-1595602447264-0" className="text-center mt-2 mb-2">
                 <GPT
