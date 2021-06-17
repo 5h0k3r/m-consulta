@@ -1,5 +1,5 @@
-import Document, {NextScript, Html, Head, Main } from 'next/document'
-import Script from 'next/script'
+import Document, { Html, Head, Main } from 'next/document'
+import NextScript from '../components/customNextHead/_customNextHead.tsx'
 
 class MyDocument extends Document {
     render() {
