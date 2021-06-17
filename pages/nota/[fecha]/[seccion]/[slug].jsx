@@ -110,7 +110,7 @@ function Nota({data}){
                 <div className="tags-list">
                     {
                         content.tags.map( (tag, index) =>(
-                            <Link href={process.env.eConsultaCanonical+'tags/'+tag.name} key={index}>
+                            <Link href={'/tags/'+tag.name} key={index}>
                                 {tag.name}
                             </Link>
                         ) )
