@@ -27,12 +27,7 @@ function Opinion({ data }) {
                     <h1><b>{content.title}</b></h1>
                 </div>
                 <div className="row">
-                    <div className="col-xs-12">
-                        <p>
-                            <span className="w-100">{content.date_torender}</span>
-                            <Link href={'/autores/'+content.AUTOR}>{content.AUTOR}</Link>
-                        </p>
-                    </div>
+                    
                     <div className="float-left note-sumary note-sumary-cont" style={{width: '69%'}}>
                         <p><b>{content.sumario}</b></p>
                     </div>
@@ -44,6 +39,12 @@ function Opinion({ data }) {
                             src={content.src_imgs.replace('public://', process.env.eConsultaImagenes)}
                             alt={content.title}
                         />
+                    </div>
+                    <div className="col-xs-12">
+                        <p>
+                            <span className="w-100">{content.date_torender}</span><br/>
+                            <Link href={'/autores/'+content.AUTOR}>{content.AUTOR}</Link>
+                        </p>
                     </div>
                     {
                         content.description != '' ?
@@ -61,7 +62,7 @@ function Opinion({ data }) {
                     <Share url={content.URL_ALIAS} title={content.title}/>
                     
                 </div>
-                <div className="txtview text-justify" >
+                <div className="txtview text-justify note-body" >
                     {html.map((p, index) =>(
                         index+1 == 3 ? 
                         (

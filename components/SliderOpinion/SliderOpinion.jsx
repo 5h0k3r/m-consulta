@@ -47,7 +47,7 @@ function Slideropinion() {
                                 </div>
                                 <div className="cwrap">
                                     <div className="title">
-                                        <Link href={item.url_alias}>
+                                        <Link href={'/'+item.url_alias}>
                                             <p>{item.title}</p>
                                         </Link>
                                     </div>

@@ -6,9 +6,10 @@ import dynamic from 'next/dynamic'
 import Script from 'next/script'
 import Slider from "@bit/akiran.react-slick.slider"
 import Ad from 'react-google-publisher-tag'
-import {Bling as GPT} from "react-gpt";
+import {Bling as GPT} from "react-gpt"
 import ReactHtmlParser from 'react-html-parser'
 import Template from '../../../../template/template'
+import useSWR from 'swr'
 //import { FacebookProvider, Comments } from 'react-facebook';
 
 
@@ -18,10 +19,34 @@ const Share = dynamic(() => import('../../../../components/Share/Share'))
 const Relativas = dynamic(() => import('../../../../components/Relativas/Relativas'))
 
 GPT.enableSingleRequest();
+
  
-function Nota({data}){
-    const content = data.data
-    const { src_imgs } = data.data
+function Nota({nota}){
+    useEffect(() => {
+        const i = document.createElement("script");
+        i.setAttribute("src", "https://www.instagram.com/static/bundles/es6/EmbedSDK.js/58b07fec4121.js")
+        i.setAttribute("defer", "true")
+        const instScript = document.getElementsByClassName("instagram-media")[0]
+        instScript ? instScript.appendChild(i) : null
+        document.head.appendChild(i)
+
+        const twitterScript = document.createElement("script")
+        twitterScript.setAttribute("src", "https://platform.twitter.com/widgets.js")
+        twitterScript.setAttribute("defer", true)
+        const tweetElement = document.getElementsByClassName("twitter-tweet")[0]
+        tweetElement ? tweetElement.appendChild(twitterScript) : null
+
+        const tiktok = document.createElement("script")
+        tiktok.setAttribute("src", "https://www.tiktok.com/embed.js")
+        tiktok.setAttribute("defer", true)
+        const tiktokScript = document.getElementsByClassName("tiktok-embed")[0]
+        tiktokScript ? tiktokScript.appendChild(tiktok) : null
+
+
+
+    }, [])
+    const content = nota.data
+    const { src_imgs } = nota.data
     const html = content.cuerpo
     const setting = {
         dots: false,
@@ -37,10 +62,9 @@ function Nota({data}){
             <Head>
                 {ReactHtmlParser(content.seo)}
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: content.nota_schema }} ></script>
+                <meta property="fb:pages" content="159467817449892" />
             </Head>
             <Script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" strategy="beforeInteractive" />
-            <Script src="https://www.instagram.com/static/bundles/es6/EmbedSDK.js/58b07fec4121.js" strategy="beforeInteractive" />
-            <Script src="https://platform.twitter.com/widgets.js" strategy="beforeInteractive" />
 
             <div id="div-gpt-ad-1595602447264-0" className="text-center mt-2 mb-2">
                 <GPT
@@ -124,8 +148,8 @@ function Nota({data}){
                 </FacebookProvider>
             </div>
             */}
-            
-            <div className="relativas">
+
+            <div className="relativas mt-3">
                 <div className="r-head">
                     Notas relacionadas
 		        </div>
@@ -158,7 +182,7 @@ export async function getServerSideProps({params}){
     const data = await res.json()
     return{
         props: {
-            data: data
+            nota: data
         }
     }
 }

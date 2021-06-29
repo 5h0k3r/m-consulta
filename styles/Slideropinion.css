@@ -36,7 +36,7 @@
     /*font-weight: bold;*/
     line-height: 1.5rem;
     border-bottom: solid 2px red;
-    font-size: 1.1rem;
+    font-size: 15px;
     max-height: 6rem;
     height: 4rem;
     overflow: hidden;
@@ -78,6 +78,6 @@
     display: inline-block;
     padding: 2px 6px 2px 6px;
     max-height: 1.7rem;
-    font-size: 1rem;
+    font-size: 12px;
     overflow: hidden;
 }

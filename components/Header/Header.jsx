@@ -18,9 +18,11 @@ export default function Header(){
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top main-navigation">
                 <div className="container-fluid">
-                    <a className="navbar-brand order-2 order-lg-1 mx-auto mr-lg-3 ml-3 ml-lg-0" href="#home">
-                        <Image src={'/images/logo.png'} alt="Logo de e-consulta" className="prueba lazyload" width="136" height="35" />
-                    </a>
+                    <Link href="/">
+                        <a className="navbar-brand order-2 order-lg-1 mx-auto mr-lg-3 ml-3 ml-lg-0" href="#home">
+                            <Image src={'/images/logo.png'} alt="Logo de e-consulta" className="prueba lazyload" width="136" height="35" />
+                        </a>
+                    </Link>
                     <button className="navbar-toggler " type="button" aria-label="Justify">
                         <span className="navbar-toggler-icon" aria-hidden="true"></span>
                     </button>

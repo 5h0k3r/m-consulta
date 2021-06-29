@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 8080",
+    "dev": "next dev -p 3007",
     "build": "next build",
-    "start": "next start -p 8080"
+    "start": "next start -p 3007",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@bit/akiran.react-slick.slider": "^0.24.0",
@@ -20,5 +21,8 @@
     "react-html-parser": "^2.0.2",
     "react-player": "^2.9.0",
     "swr": "^0.5.6"
+  },
+  "devDependencies": {
+    "next-sitemap": "^1.6.124"
   }
 }

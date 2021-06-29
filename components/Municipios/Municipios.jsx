@@ -22,11 +22,10 @@ export default function Municipios(){
     }
     return(
         <>
-            <div className="separador-municipios">
-                <div className="line-municipios"></div>
-                <div className="title-municipios">
-                    <div className="municipios-logo"></div>
-                    <div className="name-municipios">Municipios</div>
+            <div className="separador">
+                <div className="line"></div>
+                <div className="title">
+                    <div className="name">Municipios</div>
                 </div>
             </div>
             <div className="row galeria-muni">

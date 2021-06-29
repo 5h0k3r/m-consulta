@@ -23,7 +23,7 @@ const Multimedia = () => {
                 <div className="line"></div>
                 <div className="title">
                     <div className="opinion-multimedia"></div>
-                    <div className="name"> Multimedia</div>
+                    <div className="name">&nbsp;Multimedia</div>
                 </div>
             </div>
             <div className="player">

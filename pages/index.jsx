@@ -63,70 +63,70 @@ export default function Home() {
         />
       </Head>
       <div id="div-gpt-ad-1595634310559-0" className="text-center mt-2 mb-2">
-                <GPT
-                    adUnitPath="/138222292/MovilPortada_FullTop_320x50"
-                    slotSize={[320, 50]}
-                />
-            </div>
-            <GaleriaPrincipal />
-            <div id="div-gpt-ad-1595638274390-0" className="text-center mt-2 mb-2">
-                <GPT
-                    adUnitPath="/138222292/MoPo_320x50_2nd_new"
-                    slotSize={[320, 50]}
-                />
-            </div>
-            <AlMyMasL />
-            <LaCorte />
-            
-            <div id="div-gpt-ad-1617048661461-0" className="text-center mt-2 mb-2">
-                <GPT
-                    adUnitPath="/138222292/MoPo_300x250_DespuesCorte"
-                    slotSize={[300, 250]}
-                />
-            </div>
-            <Municipios />
-            <div id="div-gpt-ad-1623355430247-0" className="text-center mt-2 mb-2">
-                <GPT
-                    adUnitPath="/138222292/CuboGenerico_300x250"
-                    slotSize={[300, 250]}
-                />
-            </div>
-            <SliderOpinion />
-            <div id="div-gpt-ad-1623355430247-0" className="text-center mt-2 mb-2">
-                <GPT
-                    adUnitPath="/138222292/CuboGenerico_300x250"
-                    slotSize={[300, 250]}
-                />
-            </div>
-            <Multimedia />
-            <div id="div-gpt-ad-1623355430247-0" className="text-center mt-2 mb-2">
-                <GPT
-                    adUnitPath="/138222292/CuboGenerico_300x250"
-                    slotSize={[300, 250]}
-                />
-            </div>
-            <NotasSoft path="deportes" title="Deportes" />
-            <div id="div-gpt-ad-1623355430247-0" className="text-center mt-2 mb-2">
-                <GPT
-                    adUnitPath="/138222292/CuboGenerico_300x250"
-                    slotSize={[300, 250]}
-                />
-            </div>
-            <NotasSoft path="virales" title="Virales" />
-            <div id="div-gpt-ad-1623355430247-0" className="text-center mt-2 mb-2">
-                <GPT
-                    adUnitPath="/138222292/CuboGenerico_300x250"
-                    slotSize={[300, 250]}
-                />
-            </div>
-            <NotasSoft path="nacionymundo" title="Nación y Mundo" />
-            <div id="div-gpt-ad-1623355430247-0" className="text-center mt-2 mb-2">
-                <GPT
-                    adUnitPath="/138222292/CuboGenerico_300x250"
-                    slotSize={[300, 250]}
-                />
-            </div>
-            <Blogs />
+          <GPT
+              adUnitPath="/138222292/MovilPortada_FullTop_320x50"
+              slotSize={[320, 50]}
+          />
+      </div>
+      <GaleriaPrincipal />
+      <div id="div-gpt-ad-1595638274390-0" className="text-center mt-2 mb-2">
+          <GPT
+              adUnitPath="/138222292/MoPo_320x50_2nd_new"
+              slotSize={[320, 50]}
+          />
+      </div>
+      <AlMyMasL />
+      <LaCorte />
+      
+      <div id="div-gpt-ad-1617048661461-0" className="text-center mt-2 mb-2">
+          <GPT
+              adUnitPath="/138222292/MoPo_300x250_DespuesCorte"
+              slotSize={[300, 250]}
+          />
+      </div>
+      <Municipios />
+      <div id="div-gpt-ad-1623355430247-0" className="text-center mt-2 mb-2">
+          <GPT
+              adUnitPath="/138222292/CuboGenerico_300x250"
+              slotSize={[300, 250]}
+          />
+      </div>
+      <SliderOpinion />
+      <div id="div-gpt-ad-1623355430247-0" className="text-center mt-2 mb-2">
+          <GPT
+              adUnitPath="/138222292/CuboGenerico_300x250"
+              slotSize={[300, 250]}
+          />
+      </div>
+      <Multimedia />
+      <div id="div-gpt-ad-1623355430247-0" className="text-center mt-2 mb-2">
+          <GPT
+              adUnitPath="/138222292/CuboGenerico_300x250"
+              slotSize={[300, 250]}
+          />
+      </div>
+      <NotasSoft path="deportes" title="Deportes" />
+      <div id="div-gpt-ad-1623355430247-0" className="text-center mt-2 mb-2">
+          <GPT
+              adUnitPath="/138222292/CuboGenerico_300x250"
+              slotSize={[300, 250]}
+          />
+      </div>
+      <NotasSoft path="virales" title="Virales" />
+      <div id="div-gpt-ad-1623355430247-0" className="text-center mt-2 mb-2">
+          <GPT
+              adUnitPath="/138222292/CuboGenerico_300x250"
+              slotSize={[300, 250]}
+          />
+      </div>
+      <NotasSoft path="nacionymundo" title="Nación y Mundo" />
+      <div id="div-gpt-ad-1623355430247-0" className="text-center mt-2 mb-2">
+          <GPT
+              adUnitPath="/138222292/CuboGenerico_300x250"
+              slotSize={[300, 250]}
+          />
+      </div>
+      <Blogs />
     </Template>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Script from 'next/script'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 
@@ -29,6 +30,20 @@ export default function Template({children}){
                 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet " media="screen and (max-width: 600px)" />
                 <link rel="stylesheet" href="/static/fontello-z/css/fontello.css" as="style" media="screen and (max-width: 600px)" />
             </Head>
+            <Script>
+                {`
+                    var _comscore = _comscore || [];
+                    _comscore.push({ c1: "2", c2: "16333908" });
+                    (function() {
+                      var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+                      s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+                      el.parentNode.insertBefore(s, el);
+                    })();
+                `}
+            </Script>
+            <noscript>
+                <img src="https://sb.scorecardresearch.com/p?c1=2&c2=16333908&cv=2.0&cj=1" />
+            </noscript>
             <Header />
             <div className="container-fluid">
                 <div className="row">

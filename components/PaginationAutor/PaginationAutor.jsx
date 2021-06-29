@@ -11,7 +11,6 @@ export default function PaginationAutor({name}){
     if (!data) return (<div className="d-flex justify-content-center"><div className="spinner-border text-primary" role="status"><span className="visually-hidden">Loading...</span></div></div>)
     const autor = data.data.author
     const notas = data.data.nodes
-    //console.log(notas);
     return(
         <>
             
@@ -64,6 +63,9 @@ export default function PaginationAutor({name}){
                                         <div className="news-data">
                                             <h1 className="news-title">{article.title}</h1>
                                         </div>
+                                        <div className="author-fecha-seccion nota-autor byline">
+                                            {autor.autor} / {article.created}
+                                        </div>
                                     </article>
                                 </Link>, <div id="div-gpt-ad-1623519879945-0" className="text-center mt-2 mb-2">
                                     <GPT
@@ -83,6 +85,9 @@ export default function PaginationAutor({name}){
                                         </figure>
                                         <div className="news-data">
                                             <h1 className="news-title">{article.title}</h1>
+                                        </div>
+                                        <div className="author-fecha-seccion nota-autor byline">
+                                            {autor.autor} / {article.created}
                                         </div>
                                     </article>
                                 </Link>

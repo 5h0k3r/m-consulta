@@ -39,7 +39,7 @@ export default function MainNote(){
                     <Link href={`/${notap.external_link}`} key={index}>
                         <div className="card card-new-galery">
                             <div className="new-galery-img">
-                                <Image src={notap.external_img_uri.replace('public://', process.env.eConsultaImagenPrincipal)} className="new-galery card-img card-img-top card-img-main-note lazyload" alt={notap.title} layout='fill' />
+                                <Image src={notap.external_img_uri.replace('public://', process.env.eConsultaImagenPrincipal)} className="new-galery card-img card-img-top card-img-main-note lazyload" alt={notap.title} layout='fill' placeholder="blur" />
                             </div>
                             <div className="card-body card-title ">
                                 <h5 className="card-title text-center font-weight">{notap.title}</h5>
