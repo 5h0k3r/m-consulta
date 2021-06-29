@@ -10,7 +10,13 @@ export default function Relativas({rel}){
                     <Link href={'/' + item.alias}>
                         <a>
                             <div className="r-image text-center">
-                                <Image className="lazyload" src={item.img_uri.replace('public://', process.env.eConsultaImagenes)} width={300} height={200} alt={ item.title }/>
+                                {item.img_uri ? (
+
+                                    <Image className="lazyload" src={item.img_uri.replace('public://', process.env.eConsultaImagenes)} width={300} height={200} alt={ item.title }/>
+                                ) : (
+                                    <>
+                                    </>
+                                )}
                             </div>
                             <div className="r-title">{item.title}</div>
                         </a>
