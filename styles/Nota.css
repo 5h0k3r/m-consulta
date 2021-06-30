@@ -1,149 +1,149 @@
 .relativas{
-    z-index: 1;
-    display: block;
-    position: relative;
+  z-index: 1;
+  display: block;
+  position: relative;
 }
 .slick-prev {
-    left: 0 !important;
-    z-index: 1;
+  left: 0 !important;
+  z-index: 1;
 }
 .slick-next {
-    right: 0 !important;
+  right: 0 !important;
 }
 .separador{
-    display: block;
+  display: block;
 
 }
 .nota-seccion{
-    font-size: 1rem;
-    color: #23375a;
-    font-style: normal;
-    font-weight: 700;
-    font-family: 'Work Sans', sans-serif;
+  font-size: 1rem;
+  color: #23375a;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Work Sans', sans-serif;
 }
 .nota-title h1{
-    font-size: 2rem!important;
-    font-family: 'Work Sans', sans-serif!important;
-    width: 100% !important;
-    font-weight: 800!important;
+  font-size: 2rem!important;
+  font-family: 'Work Sans', sans-serif!important;
+  width: 100% !important;
+  font-weight: 800!important;
 }
 .nota-sumario{
-    font-size: 1.1rem;
-    color: #737373;
-    font-style: normal;
-    margin: 5px 0;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bolder;
+  font-size: 1.1rem;
+  color: #737373;
+  font-style: normal;
+  margin: 5px 0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bolder;
 }
 .nota-autor{
-    font-size: 1rem;
-    color: #737373;
-    font-family: 'Work Sans', sans-serif;
-    font-style: italic;
+  font-size: 1rem;
+  color: #737373;
+  font-family: 'Work Sans', sans-serif;
+  font-style: italic;
 }
 .txtview{
-    width: 100% !important;
-    font-size: 1.25rem;
-    font-family: 'Work Sans', sans-serif !important;
-    word-break: break-word;
+  width: 100% !important;
+  font-size: 1.25rem;
+  font-family: 'Work Sans', sans-serif !important;
+  word-break: break-word;
 }
 /*CSS Notas RELATIVAS de RELACION no de RELATIVIDAD ya te la knows*/
 .relatives.container {
-    /*margin: 0;*/
-    padding: 0;
+  /*margin: 0;*/
+  padding: 0;
 }
 .r-head{
-  padding: 4px;
-  background-color: #23375a;
-  color: white;
-  font-weight:bold;
-  font-family: 'Work Sans', sans-serif;
-  text-align: center;
-  font-size: 1.4rem;
-  border-radius: 15px;
+padding: 4px;
+background-color: #23375a;
+color: white;
+font-weight:bold;
+font-family: 'Work Sans', sans-serif;
+text-align: center;
+font-size: 1.4rem;
+border-radius: 15px;
 }
 
 .r-el{
-  background-color: white;
+background-color: white;
 }
 .r-el a{
-  text-decoration: none;
+text-decoration: none;
 }
 .r-image img{
-  width: 100%;
-  padding: 12px;
-  padding-bottom: 3px;
+width: 100%;
+padding: 12px;
+padding-bottom: 3px;
 
 }
 
 .r-title{
-  color: #23375a;
-  text-align: left;
-  padding-left: 14px;
-  padding-right: 14px;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1.5rem;
-  line-height: 1.7rem;
-  font-weight: bold;
+color: #23375a;
+text-align: left;
+padding-left: 14px;
+padding-right: 14px;
+font-family: 'Work Sans', sans-serif;
+font-size: 1.5rem;
+line-height: 1.7rem;
+font-weight: bold;
 }
 
 .r-space{
-  margin-top: 10px;
-  background-color: white;
-  height: 2px;
-  width:100%;
-  text-align: center;
+margin-top: 10px;
+background-color: white;
+height: 2px;
+width:100%;
+text-align: center;
 }
 .entretenimiento .nota-seccion{
-  color: red;
-  font-weight: bold;
+color: red;
+font-weight: bold;
 }
 .note-body img{
-  width: 100%!important;
-  height: auto !important;
+width: 100%!important;
+height: auto !important;
 }
 
 .note-body iframe{
-    width: 100%!important;
+  width: 100%!important;
 }
 /*TAGS*/
 .tags-list {
-  -moz-hyphens: auto !important;
-  hyphens: auto;
-  text-align: center;
-  line-height: 2.5rem;
-  word-wrap: break-word;
-  word-break: break-all !important;
+-moz-hyphens: none !important;
+hyphens: none;
+text-align: center;
+line-height: 2.5rem;
+word-break: break-word !important;
 }
 .tags-list a {
-    color: #23375a;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: .5rem;
-    padding-right: .5rem;
-    margin: .2rem;
-    font-weight: bold;
-    font-family: roboto;
-    border-radius: 14px;
-    text-decoration: none;
-    border-bottom: 1px solid #000;
-    white-space: nowrap;
-    /* word-break: break-all; */
-    font-family: 'Work Sans', sans-serif;
+display: inline-block;
+  color: #23375a;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  margin: .2rem;
+  font-weight: bold;
+  font-family: roboto;
+  border-radius: 14px;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  white-space: nowrap;
+  word-break: break-word;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .en-protada{
-  border-radius: 15px;
-  font-family: 'Work Sans', sans-serif;
-  background-color: #23375a;
+border-radius: 15px;
+font-family: 'Work Sans', sans-serif;
+background-color: #23375a;
 }
 
 .note-body p a{
-	word-wrap: break-word
+word-wrap: break-word
 }
 .note-body blockquote{
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    font-size: 17.5px;
-    border-left: 5px solid #eee;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
 }

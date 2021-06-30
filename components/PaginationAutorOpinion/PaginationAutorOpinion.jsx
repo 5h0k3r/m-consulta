@@ -12,9 +12,15 @@ export default function PaginationAutor({name}){
     const autor = data.data.author
     const notas = data.data.nodes
     const page_total = data.total;
+    console.log(autor)
     return(
         <>
-            
+            <div id="div-gpt-ad-1623608534630-0" className="text-center mt-2 mb-2">
+                <GPT
+                    adUnitPath="/138222292/Generico_320x50"
+                    slotSize={[320, 50]}
+                />
+            </div>
             <div className="row">
                 <div className="col-xs-12">
                     <p>
@@ -23,6 +29,18 @@ export default function PaginationAutor({name}){
                 </div>
                 <div className="float-left note-sumary note-sumary-cont" style={{width: '69%'}}>
                     <h1>{autor.autor}</h1>
+                    {
+                        autor.bio != '' ?
+                        (
+                            <div className="col-xs-12 semblanza">
+                                {ReactHtmlParser(autor.bio)}
+                            </div>
+                        )
+                        :
+                        (
+                            <></>
+                        )
+                    }   
                 </div>
                     <div className="float-rigth" style={{width: '30%'}}>
                         <Image
@@ -32,15 +50,10 @@ export default function PaginationAutor({name}){
                             src={autor.img_url.replace('public://', process.env.eConsultaImagenes)}
                             alt={autor.autor}
                         />
-                    </div>            
+                    </div>         
                 </div>
-            <div id="div-gpt-ad-1623608534630-0" className="text-center mt-2 mb-2">
-                <GPT
-                    adUnitPath="/138222292/Generico_320x50"
-                    slotSize={[320, 50]}
-                />
-            </div>
-            <ul className="content-secciones">
+            
+            <ul className="content-secciones mt-3">
                 {notas.map((article, index) =>(
                     <li key={index}>
                         {index == 4?
@@ -48,7 +61,7 @@ export default function PaginationAutor({name}){
                             [<Link href={`/${article.url_alias}`}>
                                 <div className="card w-100 border-0" key={article.nid}>
                                     <div className="card-body p-0 pb-2 pt-2">
-                                        <span className="w-100 fst-italic" style={{'font-size': '15px'}}>{article.created}</span>
+                                        <span className="w-100 fst-italic" style={{'fontSize': '15px'}}>{article.created}</span>
                                         <p className="card-text fw-bold">{article.title}</p>
                                     </div>
                                 </div>

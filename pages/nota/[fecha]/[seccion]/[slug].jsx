@@ -57,6 +57,7 @@ function Nota({nota}){
         centerMode: false,
         infinite: false
     }
+    console.log(nota)
     return(
         <Template>
             <Head>
@@ -65,7 +66,9 @@ function Nota({nota}){
                 <meta property="fb:pages" content="159467817449892" />
             </Head>
             <Script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" strategy="beforeInteractive" />
-
+            <Script src="https://www.instagram.com/static/bundles/es6/EmbedSDK.js/58b07fec4121.js" />
+            <Script src="https://platform.twitter.com/widgets.js" />
+            <Script src="https://www.tiktok.com/embed.js" />
             <div id="div-gpt-ad-1595602447264-0" className="text-center mt-2 mb-2">
                 <GPT
                     adUnitPath="/138222292/MobileNote_FullTop_320x50"
@@ -106,8 +109,8 @@ function Nota({nota}){
                 <div className="nota-title">
                     <h1>{content.title}</h1>
                 </div>
-                <div className="nota-autor byline">
-                    Por <Link href={'/autor/' + content.AUTOR}>{content.AUTOR}</Link>  | {content.date_torender} | {content.credit_img}
+                <div className="nota-autor byline mt-2">
+                    Por <Link href={'/autor/' + content.AUTOR}>{content.AUTOR}</Link>  | {content.date_torender} | {content.credit_img ? ( <> {content.credit_img} </>) : ( <> </>)}
                 </div>
                 {content.sumario ? (
                     <div className="nota-sumario">
@@ -178,7 +181,7 @@ function Nota({nota}){
 export async function getServerSideProps({params}){
     const { fecha, seccion, slug } = params
     const nota = fecha+"/"+seccion+"/"+slug
-    const res = await fetch(process.env.eConsultaNota+nota)
+    const res = await fetch(process.env.eConsultaNota+''+nota)
     const data = await res.json()
     return{
         props: {

@@ -28,7 +28,7 @@ function Opinion({ data }) {
                 </div>
                 <div className="row">
                     
-                    <div className="float-left note-sumary note-sumary-cont" style={{width: '69%'}}>
+                    <div className="float-left note-sumary note-sumary-cont summry" style={{width: '69%'}}>
                         <p><b>{content.sumario}</b></p>
                     </div>
                     <div className="float-rigth" style={{width: '30%'}}>
@@ -40,24 +40,12 @@ function Opinion({ data }) {
                             alt={content.title}
                         />
                     </div>
-                    <div className="col-xs-12">
+                    <div className="col-xs-12 mt-3">
                         <p>
                             <span className="w-100">{content.date_torender}</span><br/>
-                            <Link href={'/autores/'+content.AUTOR}>{content.AUTOR}</Link>
+                            Leer más sobre <Link href={'/autores/'+content.AUTOR}>{content.AUTOR}</Link>
                         </p>
                     </div>
-                    {
-                        content.description != '' ?
-                        (
-                            <div className="col-xs-12 semblanza">
-                                {ReactHtmlParser(content.description)}
-                            </div>
-                        )
-                        :
-                        (
-                            <></>
-                        )
-                    }
                     
                     <Share url={content.URL_ALIAS} title={content.title}/>
                     
