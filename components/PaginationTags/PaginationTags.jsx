@@ -13,7 +13,7 @@ export default function PaginationTags({slug}){
             <ul className="content-secciones">
                 {data.data.map((article, index) =>(
                     <li key={index}>
-                        <article className="new new-summary invert" key={article.nid}>
+                        <article className="secciones new new-summary invert" key={article.nid}>
                             <figure className="news-media">
                                 <Link href={`/${article.alias}`}>
                                     <a>
@@ -25,6 +25,19 @@ export default function PaginationTags({slug}){
                                 <Link href={`/${article.alias}`}>
                                     <h1 className="news-title">{article.title}</h1>
                                 </Link>
+                            </div>
+                            <div className="author-fecha-seccion nota-autor byline">
+                                {
+                                    article.author ? (
+                                        <>
+                                            <Link href={'/autor/' + article.author}>{article.author}</Link> / {article.created}
+                                        </>
+                                    ) : (
+                                        <>
+                                            Staff / {article.created}
+                                        </>
+                                    )
+                                }
                             </div>
                         </article>
                     </li>
