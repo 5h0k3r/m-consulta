@@ -6,7 +6,7 @@ import { GA_TRACKING_ID } from '../lib/gtag'
 class MyDocument extends Document {
     render() {
       return (
-        <Html lang="es">
+        <Html lang="es" class="notranslate" translate="no">
           <Head>
             <script
               async
@@ -33,6 +33,7 @@ class MyDocument extends Document {
                 `,
               }}
             />
+            <meta name="google" content="notranslate"></meta>
           </Head>
           <body>
             <Main /> 
