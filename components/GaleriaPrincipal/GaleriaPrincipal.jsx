@@ -64,7 +64,7 @@ export default function MainNote(){
                     {galeria.response.map((nota, index) =>(
                         nota.external_link ? (
                             <Link href={`/${nota.external_link}`} key={index} >
-                                <div className="card card-first-slider text-white" >
+                                <div className="card card-first-slider text-white mt-1" >
                                     <Image src={nota.external_img_uri.replace('public://', process.env.eConsultaImagenSecundaria)} className="new-galery card-img card-img-top card-img-galeria lazyload" alt={nota.title} layout='fill' />
                                     <div className="card-img-overlay card-title-first-slider__article">
                                         <h2 className="card-title card-title-first-slider__title">{nota.title}</h2>
@@ -73,7 +73,7 @@ export default function MainNote(){
                             </Link>
                         ): (
                             <Link href={`/${nota.alias}`} key={index} >
-                                <div className="card card-first-slider text-white" >
+                                <div className="card card-first-slider text-white mt-1" >
                                     <Image src={nota.img_uri.replace('public://', process.env.eConsultaImagenSecundaria)} className="new-galery card-img card-img-top card-img-galeria lazyload" alt={nota.title} layout='fill' />
                                     <div className="card-img-overlay card-title-first-slider__article">
                                         <h2 className="card-title card-title-first-slider__title">{nota.title}</h2>
