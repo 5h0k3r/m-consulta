@@ -110,7 +110,7 @@ function Nota({nota}){
                     <h1>{content.title}</h1>
                 </div>
                 <div className="nota-autor byline mt-2">
-                    Por <Link href={'/autor/' + content.AUTOR}>{content.AUTOR}</Link>  | {content.date_torender} | {content.credit_img ? ( <> {content.credit_img} </>) : ( <> </>)}
+                    Por <Link href={'/autor/' + content.AUTOR}>{content.AUTOR}</Link>  | {content.date_torender} | {content.credit_img ? ( <div>{content.credit_img} </div>) : (<></>)}
                 </div>
                 {content.sumario ? (
                     <div className="nota-sumario">
