@@ -7,7 +7,7 @@ export default function Relativas({rel}){
         <>
             {rel.map((item, index) => (
                 <div className="r-el pt-4" key={index}>
-                    <Link href={'/' + item.alias}>
+                    <Link href={process.env.localurl+'/' + item.alias}>
                         <a>
                             <div className="r-image text-center">
                                 {item.img_uri ? (
