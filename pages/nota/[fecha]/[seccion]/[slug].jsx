@@ -31,8 +31,9 @@ function Nota({nota}){
         document.head.appendChild(i)
 
         const twitterScript = document.createElement("script")
-        twitterScript.setAttribute("src", "https://platform.twitter.com/widgets.js")
-        twitterScript.setAttribute("defer", true)
+        //twitterScript.setAttribute("src", "https://platform.twitter.com/widgets.js")
+        twitterScript.innerHTML('!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs"); twttr.widgets.load();')
+        //twitterScript.setAttribute("defer", true)
         const tweetElement = document.getElementsByClassName("twitter-tweet")[0]
         tweetElement ? tweetElement.appendChild(twitterScript) : null
 
