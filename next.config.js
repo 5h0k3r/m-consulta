@@ -9,7 +9,7 @@ module.exports = withPlugins(
             domains: ['www.e-consulta.com', 'fotos.e-consulta.com'],
         },
         env: {
-            localurl: 'https://mob2021.econsulta.com',
+            localurl: 'https://mob2021.e-consulta.com',
             eConsultaMainNota: 'https://da21w.e-tlaxcala.mx/index.php/galeria',
             eConsultaMasLeidas: 'https://da21w.e-tlaxcala.mx/index.php/getRemoteMasleidas',
             eConsultaAlMomento: 'https://da21w.e-tlaxcala.mx/index.php/getRemoteAlmomento',
