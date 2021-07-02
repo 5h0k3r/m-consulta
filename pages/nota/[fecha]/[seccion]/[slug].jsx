@@ -44,7 +44,7 @@ function Nota({nota}){
 
 
 
-    }, [])
+    })
     const content = nota.data
     const { src_imgs } = nota.data
     const html = content.cuerpo
