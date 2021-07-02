@@ -124,12 +124,12 @@ function Nota({nota}){
                             
                             index+1 == 3 ? 
                             (
-                                [ ReactHtmlParser((p.search('blockquote') !== -1) ? p : '<p>'+p+'</p>') , <div id="div-gpt-ad-1595629171961-0" className="text-center mt-2 mb-2"><GPT adUnitPath="/138222292/test" slotSize={[300, 250]} /></div> ]
+                                [ ReactHtmlParser((p.search('blockquote') !== -1) ? '<section>'+p+'</section>' : '<p>'+p+'</p>') , <div id="div-gpt-ad-1595629171961-0" className="text-center mt-2 mb-2"><GPT adUnitPath="/138222292/test" slotSize={[300, 250]} /></div> ]
                             )
                             : (index+1 > 3 && ((index+1) % 3 ===0)) ?
                             (
-                                [ ReactHtmlParser((p.search('blockquote') !== -1) ? p : '<p>'+p+'</p>'), <div className="text-center mt-3 mb-3"><Ad path="/138222292/CuboGenerico_300x250" id="div-gpt-ad-1623355430247-0" format="RECTANGLE"/></div> ]
-                            ): ReactHtmlParser((p.search('blockquote') !== -1) ? p : '<p>'+p+'</p>')
+                                [ ReactHtmlParser((p.search('blockquote') !== -1) ? '<section>'+p+'</section>' : '<p>'+p+'</p>'), <div className="text-center mt-3 mb-3"><Ad path="/138222292/CuboGenerico_300x250" id="div-gpt-ad-1623355430247-0" format="RECTANGLE"/></div> ]
+                            ): ReactHtmlParser((p.search('blockquote') !== -1) ? '<section>'+p+'</section>' : '<p>'+p+'</p>')
                         ) )
                         
                     }
