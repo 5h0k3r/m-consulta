@@ -23,7 +23,7 @@ GPT.enableSingleRequest();
  
 function Nota({nota}){
     useEffect(() => {
-        /*const i = document.createElement("script");
+        const i = document.createElement("script");
         i.setAttribute("src", "https://www.instagram.com/static/bundles/es6/EmbedSDK.js/58b07fec4121.js")
         i.setAttribute("defer", "true")
         const instScript = document.getElementsByClassName("instagram-media")[0]
@@ -34,7 +34,7 @@ function Nota({nota}){
         twitterScript.setAttribute("src", "https://platform.twitter.com/widgets.js")
         twitterScript.setAttribute("defer", true)
         const tweetElement = document.getElementsByClassName("twitter-tweet")[0]
-        tweetElement ? tweetElement.appendChild(twitterScript) : null*/
+        tweetElement ? tweetElement.appendChild(twitterScript) : null
 
         const tiktok = document.createElement("script")
         tiktok.setAttribute("src", "https://www.tiktok.com/embed.js")
@@ -66,8 +66,8 @@ function Nota({nota}){
                 <meta property="fb:pages" content="159467817449892" />
             </Head>
             <Script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" strategy="beforeInteractive" />
-            <Script src="https://www.instagram.com/static/bundles/es6/EmbedSDK.js/58b07fec4121.js" />
-            <Script src="https://platform.twitter.com/widgets.js" />
+            {/*<Script src="https://www.instagram.com/static/bundles/es6/EmbedSDK.js/58b07fec4121.js" />
+            <Script src="https://platform.twitter.com/widgets.js" /> */}
             <div id="div-gpt-ad-1595602447264-0" className="text-center mt-2 mb-2">
                 <GPT
                     adUnitPath="/138222292/MobileNote_FullTop_320x50"
