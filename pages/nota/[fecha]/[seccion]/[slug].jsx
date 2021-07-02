@@ -66,9 +66,6 @@ function Nota({nota}){
                 <meta property="fb:pages" content="159467817449892" />
             </Head>
             <Script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" strategy="beforeInteractive" />
-            <Script src="https://www.instagram.com/static/bundles/es6/EmbedSDK.js/58b07fec4121.js" />
-            <Script src="https://platform.twitter.com/widgets.js" />
-            <Script src="https://www.tiktok.com/embed.js" />
             <div id="div-gpt-ad-1595602447264-0" className="text-center mt-2 mb-2">
                 <GPT
                     adUnitPath="/138222292/MobileNote_FullTop_320x50"
