@@ -5,11 +5,11 @@ module.exports = withPlugins(
         
     ],
     {
+        generateEtags: false,
         images: {
             domains: ['www.e-consulta.com', 'fotos.e-consulta.com'],
         },
         env: {
-            localurl: 'https://mob2021.e-consulta.com',
             eConsultaMainNota: 'https://da21w.e-tlaxcala.mx/index.php/galeria',
             eConsultaMasLeidas: 'https://da21w.e-tlaxcala.mx/index.php/getRemoteMasleidas',
             eConsultaAlMomento: 'https://da21w.e-tlaxcala.mx/index.php/getRemoteAlmomento',
@@ -20,7 +20,7 @@ module.exports = withPlugins(
             eConsultaNota: 'https://da21w.e-tlaxcala.mx/index.php/nota/',
             eConsultaOpinion: 'https://da21w.e-tlaxcala.mx/index.php/opinion/',
             eConsultaImagenes: 'http://fotos.e-consulta.com/',
-            eConsultaCanonical: 'https://mob2021.e-consulta.com/',
+            eConsultaCanonical: 'https://www.e-consulta.com/',
             eConsultaSeccion: 'https://da21w.e-tlaxcala.mx/index.php/seccion/',
             eConsultaOpinionList: 'https://da21w.e-tlaxcala.mx/index.php/opinionList/',
             eConsultaImagenPrincipal: 'https://www.e-consulta.com/fotos/galeria1/',
@@ -31,6 +31,6 @@ module.exports = withPlugins(
             eConsultaAutores: 'https://da21w.e-tlaxcala.mx/index.php/autor/',
             eConsultaAutoresOpinion: 'https://da21w.e-tlaxcala.mx/index.php/autores/',
             eConsultaMediosExternos: 'https://da21w.e-tlaxcala.mx/index.php/medios-externos/'
-        } 
+        }
     }
 )

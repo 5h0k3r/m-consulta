@@ -4,18 +4,18 @@ import Image from 'next/image'
 
 export default function Relativas({rel}){
     return(
-        <section>
+        <>
             {rel.map((item, index) => (
                 <div className="r-el pt-4" key={index}>
-                    <Link href={process.env.localurl+'/' + item.alias}>
+                    <Link href={'/' + item.alias}>
                         <a>
                             <div className="r-image text-center">
                                 {item.img_uri ? (
 
                                     <Image className="lazyload" src={item.img_uri.replace('public://', process.env.eConsultaImagenes)} width={300} height={200} alt={ item.title }/>
                                 ) : (
-                                    <div>
-                                    </div>
+                                    <>
+                                    </>
                                 )}
                             </div>
                             <div className="r-title">{item.title}</div>
@@ -24,6 +24,6 @@ export default function Relativas({rel}){
                     <div className="r-space"></div>
 	            </div>
             ))}
-        </section>
+        </>
     )
 }
