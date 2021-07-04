@@ -15,7 +15,7 @@ function LaCorte(){
                         <Image src="/images/logo-la-corde-de-los-milagros-horizontal.png" className="corte-logo lazyload" alt="Logo La Corte" width="242" height="32" />
                     </div>
                     <Link className="corte-link" href={info.link} target="_blank" rel="noopener">
-                        <a style={{textDecoration: "none"}}>
+                        <a style={{textDecoration: "none"}} target="_blank" rel="noopener">
                             <article className="corte-article text-center">
                                 <Image
                                     src={info.img_file.replace('public://', process.env.eConsultaImagenes)}

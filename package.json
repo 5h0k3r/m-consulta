@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 8080",
+    "dev": "next dev -p 3007",
     "build": "next build",
-    "start": "next start -p 8080",
-    "postbuild": "next-sitemap"
+    "start": "next start -p 3007",
+    "lint": "next lint"
   },
   "dependencies": {
     "@bit/akiran.react-slick.slider": "^0.24.0",
@@ -20,9 +20,12 @@
     "react-gpt": "^2.0.1",
     "react-html-parser": "^2.0.2",
     "react-player": "^2.9.0",
+    "react-script-tag": "^1.1.2",
+    "react-tweet-embed": "^1.2.2",
     "swr": "^0.5.6"
   },
   "devDependencies": {
-    "next-sitemap": "^1.6.124"
+    "eslint": "^7.29.0",
+    "eslint-config-next": "^11.0.1"
   }
 }
