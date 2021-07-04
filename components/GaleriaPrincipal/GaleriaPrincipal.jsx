@@ -39,7 +39,7 @@ export default function MainNote(){
                     <Link href={`/${notap.external_link}`} key={index}>
                         <div className="card card-new-galery">
                             <div className="new-galery-img">
-                                <Image src={notap.external_img_uri.replace('public://', process.env.eConsultaImagenPrincipal)} className="new-galery card-img card-img-top card-img-main-note lazyload" alt={notap.title} layout='fill' placeholder="blur" />
+                                <Image src={notap.external_img_uri.replace('public://', process.env.eConsultaImagenes)} className="new-galery card-img card-img-top card-img-main-note lazyload" alt={notap.title} layout='fill' placeholder="blur" />
                             </div>
                             <div className="card-body card-title ">
                                 <h5 className="card-title text-center font-weight">{notap.title}</h5>
@@ -50,7 +50,7 @@ export default function MainNote(){
                     <Link href={`/${notap.alias}`} key={index}>
                         <div className="card card-new-galery">
                             <div className="new-galery-img">
-                                <Image src={notap.img_uri.replace('public://', process.env.eConsultaImagenPrincipal)} className="new-galery card-img card-img-top card-img-main-note lazyload" alt={notap.title} layout='fill' />
+                                <Image src={notap.img_uri.replace('public://', process.env.eConsultaImagenes)} className="new-galery card-img card-img-top card-img-main-note lazyload" alt={notap.title} layout='fill' />
                             </div>
                             <div className="card-body card-title ">
                                 <h5 className="card-title text-center font-weight">{notap.title}</h5>
@@ -65,7 +65,7 @@ export default function MainNote(){
                         nota.external_link ? (
                             <Link href={`/${nota.external_link}`} key={index} >
                                 <div className="card card-first-slider text-white mt-1" >
-                                    <Image src={nota.external_img_uri.replace('public://', process.env.eConsultaImagenSecundaria)} className="new-galery card-img card-img-top card-img-galeria lazyload" alt={nota.title} layout='fill' />
+                                    <Image src={nota.external_img_uri.replace('public://', process.env.eConsultaImagenes)} className="new-galery card-img card-img-top card-img-galeria lazyload" alt={nota.title} layout='fill' />
                                     <div className="card-img-overlay card-title-first-slider__article">
                                         <h2 className="card-title card-title-first-slider__title">{nota.title}</h2>
                                     </div>
@@ -74,7 +74,7 @@ export default function MainNote(){
                         ): (
                             <Link href={`/${nota.alias}`} key={index} >
                                 <div className="card card-first-slider text-white mt-1" >
-                                    <Image src={nota.img_uri.replace('public://', process.env.eConsultaImagenSecundaria)} className="new-galery card-img card-img-top card-img-galeria lazyload" alt={nota.title} layout='fill' />
+                                    <Image src={nota.img_uri.replace('public://', process.env.eConsultaImagenes)} className="new-galery card-img card-img-top card-img-galeria lazyload" alt={nota.title} layout='fill' />
                                     <div className="card-img-overlay card-title-first-slider__article">
                                         <h2 className="card-title card-title-first-slider__title">{nota.title}</h2>
                                     </div>
