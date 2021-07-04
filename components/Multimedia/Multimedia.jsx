@@ -10,14 +10,19 @@ const Multimedia = () => {
     const obtenerMultimedia = async () => {
         const res = await axios.get(process.env.eConsultaMultimedia)
         const users = await res.data
-        setVideos(users.response)
+        if(users.response !== null && users.response !== '')
+        {
+            setVideos(users.response)
         setCurrent(users.response[0].video_link)
+        console.log(current)
+        }
     }
 
     useEffect(() => {
         obtenerMultimedia()
     }, [])
     return (
+        videos !== null && videos !== '' ?
         <div className="player-container">
             <div className="separador" id="multimedia">
                 <div className="line"></div>
@@ -51,6 +56,8 @@ const Multimedia = () => {
                 ))}
             </div>
         </div>
+        :
+        <section></section>
     )
 }
 
