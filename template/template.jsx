@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Head from 'next/head'
 import Script from 'next/script'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 
 export default function Template({children}){
+    useEffect(() => {
+        const a = document.createElement("script");
+        a.setAttribute('type', 'text/javascript');
+        a.innerHTML = `var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-35299520-5']);_gaq.push(['_trackPageview']);(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();`
+        document.head.appendChild(a)
+    })
     return(
         <div className="pt-5">
             <Head>
