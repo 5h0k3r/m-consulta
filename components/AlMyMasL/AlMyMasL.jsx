@@ -30,7 +30,7 @@ export default function UnionAlMyMasL(){
     }, [setAlMomento, setMasLeidas]);
     function hora(created){
         const date = new Date(created*1000)
-        const hora = date.getHours()+":"+date.getMinutes()
+        const hora = date.getHours()+":"+('0'+date.getMinutes()).slice(-2)
         return hora;
     }
     return(

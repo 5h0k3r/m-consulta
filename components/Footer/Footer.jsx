@@ -46,7 +46,7 @@ export default function Footer() {
                 />
                 <div className="brand">Es una marca registrada, propiedad de 
                     <a href="http://contracorriente.lat/" target="__blank">
-                         CONTRACORRIENTE
+                    &nbsp;CONTRACORRIENTE
                     </a>
                 </div>
             </div>
